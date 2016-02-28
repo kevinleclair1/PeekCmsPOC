@@ -4,14 +4,17 @@
   "description": "",
   "main": "base.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "meteor": "meteor -p 3003"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "react": "^0.14.7",
+    "react-bootstrap": "^0.28.3",
     "react-dom": "^0.14.7",
-    "react-mounter": "^1.1.0"
+    "react-mounter": "^1.1.0",
+    "react-render-visualizer": "^0.2.2"
   }
 }

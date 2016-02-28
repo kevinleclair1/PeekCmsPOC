@@ -1,7 +1,9 @@
 import React from 'react';
 import {mount} from 'react-mounter';
 // load Layout and Welcome React components
-import {OtherApp, App, MeteorData} from './app.jsx';
+import {OtherApp, App, MeteorData} from './components/app.jsx';
+import {Units} from '../lib/Collections/collections.js';
+import {setSelectedUnit} from './helpers.jsx';
 
 FlowRouter.route("/", {
   action() {
@@ -11,10 +13,14 @@ FlowRouter.route("/", {
   }
 });
 
-FlowRouter.route("/test", {
-  action() {
+FlowRouter.route('/unitOverview/:unit', {
+  action(params) {
+    //Need to set the Session value here
     mount(MeteorData, {
-        render: data => <OtherApp data={data} />
-    });
+        render: data => <App data={data} />,
+        routeControl: () => {
+          setSelectedUnit(params.unit)
+        }
+    });  
   }
-});
+})

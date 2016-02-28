@@ -1,0 +1,18 @@
+@import 'variables.scss';
+
+.mainWrapper {
+	background: $primary2;
+	.nav {
+		background: white;
+		height: 100vh;
+		a {
+			border-radius: 0;
+		}
+	}
+}
+.contentWrapper {
+	padding: 40px;
+	p {
+		color: white;
+	}
+}

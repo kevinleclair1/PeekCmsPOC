@@ -1,0 +1,124 @@
+
+    {
+    "inClassUnits":
+            [   
+                {
+                    "label": "Empathy",
+                    "title": "Lesson Plan on Empathy for Kindergarten",
+                    "active": true,
+                    "type": "lessonPlan",
+                    "routerLink": "0/lessonPlan/Empathy-k",
+                    "url": "lessonPlanner",
+                    "params": {
+                        "id": "Empathy-k",
+                        "inClass": true
+                    },
+                    "cef": [
+                        "A-1",
+                        "A-2",
+                        "U-1",
+                        "V-2",
+                        "U-3",
+                        "V-1",
+                        "U-2"
+                    ],
+                    "headerImg": "images/homePageHeaders/empathy.jpg",
+                    "releaseDate": 1456833600000
+                },
+                {
+                    "label": "Teamwork",
+                    "title": "Lesson Plan on Self-Regulation for Kindergarten",
+                    "active": true,
+                    "type": "lessonPlan",
+                    "routerLink": "0/lessonPlan/Teamwork-k",
+                    "url": "lessonPlanner",
+                    "params": {
+                        "id": "Teamwork-k",
+                        "inClass": true
+                    },
+                    "cef": [
+                        "A-1",
+                        "A-2",
+                        "U-1",
+                        "V-2",
+                        "U-3",
+                        "V-1",
+                        "U-2"
+                    ],
+                    "headerImg": "images/homePageHeaders/teamwork.jpg",
+                    "releaseDate": 1454328001000
+                },
+                {
+                    "label": "Perseverance",
+                    "title": "Lesson Plan on Self-Regulation for Kindergarten",
+                    "active": true,
+                    "type": "lessonPlan",
+                    "routerLink": "0/lessonPlan/PERSEVERANCE-k",
+                    "url": "lessonPlanner",
+                    "params": {
+                        "id": "PERSEVERANCE-k",
+                        "inClass": true
+                    },
+                    "cef": [
+                        "A-1",
+                        "A-2",
+                        "U-1",
+                        "V-2",
+                        "U-3",
+                        "V-1",
+                        "U-2"
+                    ],
+                    "headerImg": "images/homePageHeaders/music.png",
+                    "releaseDate": 1451649601000
+                },  
+                {
+                    "label": "Kindness",
+                    "title": "Lesson Plan on Kindness for Kindergarten",
+                    "active": true,
+                    "type": "lessonPlan",
+                    "url": "lessonPlanner",
+                    "params": {"id":"kindness-k", "inClass":true},
+                    "cef":["A-1"],
+                    "headerImg": "images/homePageHeaders/kindness.png",
+                    "routerLink": "0/lessonPlan/kindness-k",
+                    "releaseDate": 1448971201000
+                },
+				{
+					"label": "Self-Regulation",
+					"title": "Lesson Plan on Self-Regulation for Pre-Kindergarten",
+					"active": true,
+					"type": "lessonPlan",
+                    "routerLink": "0/lessonPlan/self-regulation-k",
+					"url": "lessonPlanner",
+					"params":{"id":"self-regulation-k", "inClass":true},
+					"cef":["A-1", "A-2", "U-1", "V-2", "U-3", "V-1", "U-2"],
+                    "headerImg": "images/homePageHeaders/selfRegulation.png",
+                    "releaseDate": 1441108801000
+				},
+                {
+                    "label": "Respect",
+                    "title": "Lesson Plan on Respect for Kindergarten",
+                    "active": true,
+                    "type": "lessonPlan",
+                    "routerLink": "0/lessonPlan/respect-k",
+                    "url": "lessonPlanner",
+                    "params":{"id":"respect-k", "inClass":true},
+                    "cef":["V-3", "V-4", "V-5", "U-4", "U-5", "A-3", "A-4"],
+                    "headerImg": "images/homePageHeaders/respect.png",
+                    "releaseDate": 1443700801000
+                },          
+                {
+                    "label": "Gratitude",
+                    "title": "Lesson Plan on Gratitude for Kindergarten",
+                    "active": true,
+                    "type":"lessonPlan",
+                    "routerLink": "0/lessonPlan/gratitude-k",
+                    "url":"lessonPlanner",
+                    "params":{"id":"gratitude-k", "inClass":true},
+                    "cef":["U-1", "U-2", "U-3", "C-1", "C-2", "C-3", "C-4", "C-5", "T-1", "T-2", "T-3", "T-4", "A-1", "A-2", "A-3", "A-4", "A-5", "A-6", "A-7", "A-8", "V-1"],
+                    "headerImg": "images/homePageHeaders/gratitude.png",
+                    "releaseDate": 1446379201000
+                }
+                ]
+
+}
